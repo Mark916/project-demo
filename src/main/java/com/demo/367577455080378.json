@@ -1,0 +1,138 @@
+{
+    "_id" : NumberLong(367577455080395),
+    "_class" : "com.proudsmart.iot.resource.domain.ModelConfig",
+    "modelId" : NumberLong(367577455080378),
+    "accessProtocol" : "modbus",
+    "analysisProtocol" : "modbusTCP",
+    "accessConfigs" : [ 
+        {
+            "kpiId" : NumberLong(367577455080389),
+            "kpiName" : "D3",
+            "dataItemId" : NumberLong(367577455080389),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/10.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4002.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080393),
+            "kpiName" : "D7",
+            "dataItemId" : NumberLong(367577455080393),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/100.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4006.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080390),
+            "kpiName" : "D4",
+            "dataItemId" : NumberLong(367577455080390),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/10.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4003.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080391),
+            "kpiName" : "D5",
+            "dataItemId" : NumberLong(367577455080391),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/100.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4004.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080392),
+            "kpiName" : "D6",
+            "dataItemId" : NumberLong(367577455080392),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/100.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4005.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080387),
+            "kpiName" : "D1",
+            "dataItemId" : NumberLong(367577455080387),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/100.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4000.0",
+                "length" : "2.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080394),
+            "kpiName" : "D8",
+            "dataItemId" : NumberLong(367577455080394),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4007.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }, 
+        {
+            "kpiId" : NumberLong(367577455080388),
+            "kpiName" : "D2",
+            "dataItemId" : NumberLong(367577455080388),
+            "dataItemCode" : NumberLong(0),
+            "dataTypeId" : 3,
+            "registers" : "4",
+            "readExpression" : "#value/10.0",
+            "createTime" : ISODate("2021-11-26T09:06:48.156Z"),
+            "config" : {
+                "dataTypeId" : "3",
+                "startPoint" : "4001.0",
+                "length" : "1.0",
+                "registers" : "4"
+            }
+        }
+    ],
+    "createTime" : ISODate("2021-11-26T09:06:52.956Z"),
+    "modifyTime" : ISODate("2021-11-26T09:06:52.960Z")
+}
